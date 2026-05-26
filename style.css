@@ -1,0 +1,69 @@
+/* Reset basic margins and set the global font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0d0d0d;
+    color: #00ff41; /* Classic terminal green */
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #1a1a1a;
+    border: 2px solid #00ff41;
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 255, 65, 0.2);
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+.instructions {
+    color: #888;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #333;
+    padding-bottom: 15px;
+}
+
+/* The actual text editor styling */
+#editor {
+    width: 100%;
+    min-height: 300px;
+    background-color: #000;
+    color: #00ff41;
+    border: 1px solid #333;
+    padding: 15px;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    outline: none; /* Removes the default browser glow */
+    white-space: pre-wrap; /* Keeps line breaks intact */
+    word-wrap: break-word;
+}
+
+/* Subtle glow when the user clicks inside the editor */
+#editor:focus {
+    border-color: #00ff41;
+    box-shadow: inset 0 0 10px rgba(0, 255, 65, 0.1);
+}
+
+.status {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    color: #555;
+    text-align: right;
+}
