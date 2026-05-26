@@ -1,6 +1,6 @@
 # 🧨 The Destructive Text Editor
 
-**Live Demo:** []
+**Live Demo:** [https://princemunnelli.github.io/the-predictive-text-editor/]
 
 Normally, software is designed to help you. Predictive text and autocorrect fix your mistakes so you can type faster. **This editor does the exact opposite.** It is an anti-editor built to fight your muscle memory and actively punish correct spelling.
 
